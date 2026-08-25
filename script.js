@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   lucide.createIcons();
+  document.querySelector('.footer-bottom b').textContent = 'เวอร์ชัน 1.1.0';
 
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.nav-links');
